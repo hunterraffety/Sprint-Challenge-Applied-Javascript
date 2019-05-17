@@ -32,7 +32,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
-### The document object model represents a list of nodes inside of the HTML structure that allows developers to create rich, interactive, and unique user experiences.
+### The document object model represents a list of nodes inside of the HTML structure (exceptionally similar to a tree, in the nature of it's structure) that allows developers to create rich, interactive, and unique user experiences.
 
 2. What is an event?
 
@@ -40,7 +40,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What is an event listener?
 
-### An event listener is something on any given element inside of the website that allows for the browser to respond in differente ways based on the user's interaction with tbe website.
+### An event listener is something on any given element inside of the website that allows for the browser to respond in different ways based on the user's interaction with tbe website.
 
 4. Why would we convert a NodeList into an Array?
 
