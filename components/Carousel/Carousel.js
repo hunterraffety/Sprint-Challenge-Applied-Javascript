@@ -1,9 +1,20 @@
+console.log(`carousel js being initialized --------------------`);
 class Carousel {
-
+  constructor(element) {
+    this.element = element;
+    this.leftBtn = document.querySelector('.left-button');
+    this.rightBtn = document.querySelector('.right-button');
+    console.log(`left`, this.leftBtn);
+    console.log(`right`, this.rightBtn);
+  }
 }
 
-let carousel = document.querySelector();
+let carousel = document.querySelectorAll('.carousel');
+console.log(`carousel from dom`, carousel);
 
+Array.from(carousel).forEach(element => {
+  new Carousel(element);
+});
 /* If You've gotten this far, you're on your own! Although we will give you some hints:
     1. You will need to grab a reference to the carousel, and in it grab the left and right buttons
     2. You will need to grab a reference to all of the images
